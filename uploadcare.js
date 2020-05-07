@@ -13,7 +13,7 @@
 }(function($) {
   function ensureWidget(version) {
     if (typeof uploadcare == 'undefined') $.getScript([
-      'https://ucarecdn.com/widget/', version, '/uploadcare/uploadcare.min.js'
+      'https://ucarecdn.com/libs/widget/', version, '/uploadcare.full.min.js'
     ].join(''))
   }
 
